@@ -16,7 +16,7 @@ from assistant.tts import TTSEngine
 
 # ── Model singletons (lazy-loaded on first request) ──────────────────────────
 _asr = ASRModel()
-_llm = LLMClient(model="qwen3.5:9b")
+_llm = LLMClient(model="qwen3.5:0.8b")
 _tts = TTSEngine(lang_code="a", voice="af_heart")
 _models_loaded = False
 _models_lock = asyncio.Lock()

@@ -27,7 +27,7 @@ class VoiceAssistantPipeline:
     def __init__(
         self,
         asr_model: str = "nvidia/parakeet-tdt-0.6b-v3",
-        llm_model: str = "qwen2.5:9b",
+        llm_model: str = "qwen3.5:0.8b",
         tts_lang: str = "a",
         tts_voice: str = "af_heart",
     ):

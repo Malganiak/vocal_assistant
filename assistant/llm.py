@@ -4,7 +4,7 @@ from typing import AsyncGenerator
 
 import ollama
 
-DEFAULT_MODEL = "qwen3.5:9b"
+DEFAULT_MODEL = "qwen3.5:0.8b"
 SYSTEM_PROMPT = (
     "You are a helpful voice assistant. "
     "Keep your answers concise and conversational — no markdown, no lists."

@@ -6,7 +6,7 @@ from assistant.pipeline import VoiceAssistantPipeline
 def main():
     pipeline = VoiceAssistantPipeline(
         asr_model="nvidia/parakeet-tdt-0.6b-v3",
-        llm_model="qwen3.5:9b",
+        llm_model="qwen3.5:0.8b",
         tts_lang="a",  # 'a' = American English
         tts_voice="af_heart",
     )
